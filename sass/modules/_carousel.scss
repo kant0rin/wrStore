@@ -1,0 +1,40 @@
+.carousel__row{
+  display: flex;
+}
+
+.carousel__slide{
+  position: relative;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: calc(100vh - 110px);
+    object-fit: cover;
+  }
+}
+
+.carousel__slide__info{
+  position: absolute;
+  left: 80%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+
+  button {
+    padding: 10px 30px 10px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.8)
+  }
+
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+  color: #cccccc;
+}
+
+.swiper {
+  .swiper-pagination-bullet {
+    background: white;
+    width: 10px;
+    height: 10px;
+  }
+}

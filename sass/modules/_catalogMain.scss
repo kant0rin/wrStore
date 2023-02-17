@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  position: sticky;
+  top: 73px;
+  height: 500px;
+}
+
+.price_form {
+  display: flex;
+  input{
+    max-width: 100px;
+  }
+  p {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+.price_from {
+  margin-right: 50px;
+}
+
+.price_filter {
+  margin-top: 25px;
+  font-size: 14px;
+  margin-bottom: 25px;
+  h2 {
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+.gender_filter {
+  h2{
+    margin-bottom: 15px;
+  }
+  margin-bottom: 25px;
+}
+
+.gender {
+  display: flex;
+  flex-direction: column;
+}
+
+.gender__variant {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  input {
+    margin-right: 5px;
+  }
+}

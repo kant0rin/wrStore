@@ -1,0 +1,16 @@
+.post_header__row {
+  display: flex;
+}
+.post_header {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.main_link {
+   opacity: 80%;
+  transition: .5s;
+}
+
+.main_link:hover {
+  opacity: 100%;
+}

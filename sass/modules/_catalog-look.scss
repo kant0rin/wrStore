@@ -1,0 +1,19 @@
+.look {
+  margin-top: 50px;
+}
+
+.look__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.look__img {
+
+
+  img {
+    width: 835px;
+    position: relative;
+    height: 1075px;
+    object-fit: cover;
+  }
+}
